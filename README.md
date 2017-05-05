@@ -2,7 +2,7 @@
 Natural Language Processing with Python 3 and NLTK 3 series
 http://pythonprogramming.net/tokenizing-words-sentences-nltk-tutorial/
 
-Some term in nltk
+1: Some term in nltk
 
 Corpus: a text part of document
 
@@ -17,13 +17,16 @@ Stemming and lemmatization :
 am, are, is ⇒ be
 car, cars, car’s, cars’ ⇒ car
 
+2: boolean queries
+
 The doc is convert to index
 word->list of page that containt words
 Index can be organized in the tree (binary tree ) for searching :
 Some technique for queries
 General wildcast query
 
-Technique for correct spelling:
+3:Technique for correct spelling:
+3.a Isolate ternm correct spelling
 Edit distance : Levenshtein distance (number of edit insert, delete, replace)
 k-grams indexes
-
+3.b Context sensitive correct spelling
