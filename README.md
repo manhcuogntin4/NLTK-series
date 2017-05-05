@@ -22,3 +22,8 @@ word->list of page that containt words
 Index can be organized in the tree (binary tree ) for searching :
 Some technique for queries
 General wildcast query
+
+Technique for correct spelling:
+Edit distance : Levenshtein distance (number of edit insert, delete, replace)
+k-grams indexes
+
