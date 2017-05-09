@@ -30,3 +30,16 @@ General wildcast query
 Edit distance : Levenshtein distance (number of edit insert, delete, replace)
 k-grams indexes
 3.b Context sensitive correct spelling
+
+4: Indexing
+4a Some concept
+Token
+Term
+Posting list: a list of torken id and the document id
+Two algorithms for indexing (local)
+blocked sort-based indexing algorithm BSBI
+single-pass in-memory indexing or SPIMI
+
+Distributed indexing
+MapReduce, a general architecture for distributed computing
+
