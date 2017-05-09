@@ -42,4 +42,16 @@ single-pass in-memory indexing or SPIMI
 
 Distributed indexing
 MapReduce, a general architecture for distributed computing
+The map phase of MapReduce consists of mapping splits of the input data to key-value pairs
+
+
+MapReduce offers a robust and conceptually simple framework for implementing index  construction  in a distributed environment
+
+Dynamic indexing:
+But most collections are modified frequently with documents being added, deleted, and updated.  This means that new terms need to be added
+to the dictionary, and postings lists need to be updated for existing terms
+
+If there is a requirement that new documents be included quickly, one solu-tion is to maintain two indexes: a large main index and a small
+auxiliary index that stores new documents.  The auxiliary index is kept in memory. Searches are run across both indexes and results merged. Deletions are stored in an invalidation bit vector. We can then filter out deleted documents before returning the search result.   Documents are updated by deleting and reinserting them. Each time the auxiliary index becomes too large, we merge it into the main index.
+
 
